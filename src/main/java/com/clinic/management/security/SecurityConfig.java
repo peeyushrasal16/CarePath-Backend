@@ -22,8 +22,6 @@ import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import com.clinic.management.security.jwt.AuthEntryPointJwt;
 import com.clinic.management.security.jwt.AuthTokenFilter;
 
-
-
 @Configuration
 @EnableWebSecurity
 public class SecurityConfig {

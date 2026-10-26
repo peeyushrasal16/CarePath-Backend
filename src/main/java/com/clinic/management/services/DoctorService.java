@@ -9,9 +9,6 @@ public interface DoctorService {
 	DoctorDto createDoctor(DoctorDto doctorDto,String email);
 
     DoctorDto getDoctorById(String id);
-    
-   
-   
 
     List<DoctorDto> getAllDoctors();
 
